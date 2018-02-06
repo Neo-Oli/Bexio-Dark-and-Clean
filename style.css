@@ -14,7 +14,9 @@ body {
 }
 .main_block,
 .foot,
-.head {
+.head,
+.bx-formular-container,
+.bx-formular-container-head{
     background-color: #0b0b0b !important;
 }
 input,
@@ -35,10 +37,9 @@ select,
 .autocompleterQuickAdd,
 .dropdown-menu,
 .bx-dashboard-card,
-.gridster .gs-w {
+.gridster .gs-w{
     background: none !important;
     background-color: #222222!important;
-    ;
 }
 .mceIcon,
 .mceToolbar,
@@ -48,7 +49,8 @@ select,
 .ac_results ul li.ac_over,
 .mypager .pagination a,
 .nav > li > a:hover,
-#char_selector ul li a {
+#char_selector ul li a
+{
     background: none !important;
     background-color: #555555 !important;
 }
@@ -59,7 +61,6 @@ select,
 .nav_payroll,
 .usersnap {
     display: none !important;
-    ;
 }
 .tab-content,
 .bx-formular-header,
@@ -68,5 +69,4 @@ td,
 .dataTableHolder,
 .head {
     border: 0px solid black !important;
-    ;
 }
